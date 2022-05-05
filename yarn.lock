@@ -5967,7 +5967,7 @@ __metadata:
     "@sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge"
     "@types/fs-extra": 9.0.13
     aws-cdk: ^2.13.0
-    aws-cdk-lib: ^2.3.0
+    aws-cdk-lib: ^2.23.0
     constructs: ^10.0.88
     fast-glob: 3.2.11
     fs-extra: 9.1.0
@@ -5975,7 +5975,7 @@ __metadata:
     rimraf: 3.0.2
     typescript: 4.5.5
   peerDependencies:
-    aws-cdk-lib: ^2.3.0
+    aws-cdk-lib: ^2.23.0
     constructs: ^10.0.88
   languageName: unknown
   linkType: soft
@@ -7760,22 +7760,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "aws-cdk-lib@npm:2.3.0"
+"aws-cdk-lib@npm:^2.23.0":
+  version: 2.23.0
+  resolution: "aws-cdk-lib@npm:2.23.0"
   dependencies:
     "@balena/dockerignore": ^1.0.2
     case: 1.6.3
     fs-extra: ^9.1.0
-    ignore: ^5.1.9
+    ignore: ^5.2.0
     jsonschema: ^1.4.0
-    minimatch: ^3.0.4
+    minimatch: ^3.1.2
     punycode: ^2.1.1
-    semver: ^7.3.5
+    semver: ^7.3.6
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: acf2db25c68de36a21596b976ad2769fa56ebbbb7c0fbdb3c0903bf76ac05b6308c6843f12056e0b2c2c28736953f542fca1df591cc01c3941ad3eb8e5004df1
+  checksum: dbbf245c8348371c23a4ea2b17cde0e1d29b346b80dfbf05a4293491cd60e80c4e8e4cc82026d92fe7eb6d5cea6174ee02b05d4613a9dcf00dc4ff3bc890e235
   languageName: node
   linkType: hard
 
@@ -12440,13 +12440,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.1.9":
-  version: 5.1.9
-  resolution: "ignore@npm:5.1.9"
-  checksum: 6f6b2235f4e63648116c5814f76b2d3d63fae9c21b8a466862e865732f59e787c9938a9042f9457091db6f0d811508ea3c8c6a60f35bafc4ceea08bbe8f96fd5
-  languageName: node
-  linkType: hard
-
 "ignore@npm:^5.2.0":
   version: 5.2.0
   resolution: "ignore@npm:5.2.0"
@@ -15527,6 +15520,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimatch@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "minimatch@npm:3.1.2"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: c154e566406683e7bcb746e000b84d74465b3a832c45d59912b9b55cd50dee66e5c4b1e5566dba26154040e51672f9aa450a9aef0c97cfc7336b78b7afb9540a
+  languageName: node
+  linkType: hard
+
 "minimist-options@npm:4.1.0":
   version: 4.1.0
   resolution: "minimist-options@npm:4.1.0"
@@ -18341,6 +18343,17 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 5eafe6102bea2a7439897c1856362e31cc348ccf96efd455c8b5bc2c61e6f7e7b8250dc26b8828c1d76a56f818a7ee907a36ae9fb37a599d3d24609207001d60
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.6":
+  version: 7.3.7
+  resolution: "semver@npm:7.3.7"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
   languageName: node
   linkType: hard
 
